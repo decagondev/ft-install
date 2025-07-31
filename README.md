@@ -13,3 +13,17 @@ sudo bash <(wget -qO- https://github.com/decagondev/ft-install/raw/refs/heads/ma
 ```bash
 sudo bash <(curl -fsSL https://github.com/decagondev/ft-install/raw/refs/heads/main/install.sh)
 ```
+
+### Troubleshooting
+
+If you get errors about `/dev/fd/nn` can not be found. Where `nn` is a number. try a nother approach.
+
+**Using `wget`:**
+```bash
+wget -qO- https://github.com/decagondev/ft-install/raw/refs/heads/main/install.sh > /tmp/install_focustracker.sh && sudo bash /tmp/install_focustracker.sh
+```
+
+**Using `curl`:**
+```bash
+curl -L https://github.com/decagondev/ft-install/raw/refs/heads/main/install.sh > /tmp/install_focustracker.sh && sudo bash /tmp/install_focustracker.sh
+```
