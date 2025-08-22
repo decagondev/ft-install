@@ -4,7 +4,7 @@
 set -e
 
 # Define variables
-BINARY_URL="https://github.com/decagondev/ft-install/raw/refs/heads/main/rc1/FocusTrackerRC2"
+BINARY_URL="https://github.com/decagondev/ft-install/raw/refs/heads/main/rc2/FocusTrackerRC2"
 INSTALL_PATH="/usr/local/bin/focustracker"
 TEMP_FILE="/tmp/focustracker"
 
